@@ -180,8 +180,8 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  object-fit: fill;
-  object-position: bottom;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 .hero-subtext {

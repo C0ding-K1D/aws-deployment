@@ -150,7 +150,14 @@ function Hero() {
       <div className="bg-design">
         <h1 className="hero-subtext">FULL-STACK</h1>
         <section className="showcase">
-          <video src={video} autoPlay loop muted></video>
+          <video
+            src={video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            type="video/mp4"
+          ></video>
           <h2 className="title">DEVELOPER</h2>
         </section>
         <p className="subheader">
