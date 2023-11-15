@@ -67,7 +67,7 @@ nav {
 .hamburger .bar {
   width: 30px;
   height: 4px;
-  background-image: linear-gradient(to top left, #00416c, #008bea) !important;
+  background: #008bea;
   transition: transform 0.2s, opacity 0.2s;
 }
 
@@ -169,18 +169,19 @@ nav {
 }
 
 .showcase {
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   position: relative;
 }
 
 .showcase video {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  object-fit: cover;
+  object-fit: fill;
   object-position: center bottom;
 }
 
