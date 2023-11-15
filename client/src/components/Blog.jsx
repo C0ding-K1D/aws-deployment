@@ -42,7 +42,7 @@ function Blog() {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "http://18.188.98.51:8000/v1/allarticles"
+          "http://3.147.54.162:8000/v1/allarticles"
         );
         setData(response.data);
       } catch (error) {

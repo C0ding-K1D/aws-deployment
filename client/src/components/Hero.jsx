@@ -23,7 +23,7 @@ function Hero() {
   const handleDownload = async () => {
     try {
       // Replace with your server's endpoint
-      const response = await axios.get("http://18.188.98.51:8000/v1/download", {
+      const response = await axios.get("http://3.147.54.162:8000/v1/download", {
         responseType: "blob", // Set the response type to 'blob' to handle binary data
       });
 
