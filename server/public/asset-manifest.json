@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da8c8a02.css",
+    "main.js": "/static/js/main.5a873f5e.js",
+    "static/media/code4.mp4": "/static/media/code4.ebcad7a58cacb9ea008c.mp4",
+    "static/media/headshot.png": "/static/media/headshot.d03879ad736cf61c3e2c.png",
+    "static/media/agile.jpg": "/static/media/agile.1be39ae4bb73a5ed5194.jpg",
+    "static/media/programming3.jpg": "/static/media/programming3.2620e58728c80b522391.jpg",
+    "static/media/backend-dev3.jpg": "/static/media/backend-dev3.623b6df1ae00dbc4f0a0.jpg",
+    "static/media/headshot2.png": "/static/media/headshot2.7f5426809374ebd05f62.png",
+    "static/media/expenseBuddy.jpg": "/static/media/expenseBuddy.663720cae94b584a8d79.jpg",
+    "static/media/everythingCookies.jpg": "/static/media/everythingCookies.b87bec632a9b1b54e2ac.jpg",
+    "static/media/forkify.jpg": "/static/media/forkify.2506e767ef402adc9fb2.jpg",
+    "static/media/newLogo.svg": "/static/media/newLogo.2d18b6ff1ccb7d47023dba4f155637c0.svg",
+    "index.html": "/index.html",
+    "static/media/medium-alt.svg": "/static/media/medium-alt.af6d2d5c6b576be43c42fdb18f8697b6.svg",
+    "static/media/medium.svg": "/static/media/medium.0a54381f0754502b8bf808dbb5ae35e0.svg",
+    "main.da8c8a02.css.map": "/static/css/main.da8c8a02.css.map",
+    "main.5a873f5e.js.map": "/static/js/main.5a873f5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da8c8a02.css",
+    "static/js/main.5a873f5e.js"
+  ]
+}
