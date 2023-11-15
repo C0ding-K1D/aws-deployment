@@ -1,0 +1,38 @@
+.projects {
+  width: 100vw;
+}
+
+.portfolio_item {
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio_item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.portfolio_img {
+  border-radius: 1.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-card_container {
+  margin: 0 10%;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline {
+  font-size: 1.5rem !important;
+}
+
+/* .btn-outline:hover {
+  border-color: #00416c !important;
+} */

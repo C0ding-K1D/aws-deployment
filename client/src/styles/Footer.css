@@ -1,0 +1,31 @@
+.footer {
+  width: 100vw;
+  background-color: #d2d2d4;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #a29f9f;
+}
+.logo-subtext_footer {
+  color: #333;
+}
+.navlogo-text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.medium-icon_footer {
+  transform: scale(1);
+  margin-right: -0.8rem;
+  margin-top: 1.5rem;
+}
+
+.footer-icon {
+  color: #008bea;
+  font-size: 3rem !important;
+}

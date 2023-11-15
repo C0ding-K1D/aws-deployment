@@ -1,0 +1,192 @@
+.sub-icon_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  margin-bottom: -5rem;
+}
+
+.sub-icon_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-icon-text {
+  font-family: "new-astro-soft", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 1.5rem;
+}
+
+.iconContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.about-icon {
+  font-size: 3rem !important;
+}
+.innerIconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.scrollText {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  font-size: 1.5rem !important;
+  transform: rotate(90deg);
+  margin-top: 5rem !important;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-image {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  border-radius: 62% 38% 70% 30% / 30% 63% 37% 70%;
+  background-color: #008bea;
+  margin: 0 auto;
+}
+
+.about-image::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  height: 330px;
+  width: 330px;
+  border-radius: 30% 70% 30% 70% / 66% 27% 73% 34%;
+  background-color: #00416c;
+  margin: 0 3rem 0 3rem;
+}
+
+.about-image::after {
+  content: url("../assets/headshot.png");
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -49%);
+  height: 320px;
+  width: 300px;
+  margin: 0 3rem 0 3rem;
+}
+
+.about-text {
+  width: 50%;
+  line-height: 1.8;
+  font-size: 1.7rem;
+  color: #333;
+  padding-right: 3rem;
+}
+
+.btn-contact_about {
+  display: flex !important;
+  margin: 0 auto !important;
+  font-size: 1.5rem !important;
+  background-color: #00416c !important;
+  color: #eee !important;
+  margin-top: 3rem !important;
+}
+
+.btn-helper {
+  color: #eee;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1125px) {
+  .innerIconContainer {
+    display: none;
+  }
+
+  .scrollText {
+    display: none;
+  }
+
+  .about-image {
+    margin-bottom: 4rem;
+  }
+
+  .about-text {
+    width: 50%;
+    /* margin-right: 5rem; */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .iconContainer {
+    flex-direction: column;
+  }
+
+  .innerIconContainer {
+    display: none;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    width: 70%;
+    /* margin-right: 5rem; */
+  }
+
+  .scrollText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sub-icon_container {
+    flex-direction: column;
+  }
+
+  .sub-icon-text:not(last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .about-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-image::before {
+    width: 280px;
+    height: 280px;
+    transform: translate(-62%, -50%);
+  }
+
+  .about-image::after {
+    /* width: 280px;
+    height: 280px; */
+    content: url("../assets/headshot2.png");
+    transform: translate(-40%, -43%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */

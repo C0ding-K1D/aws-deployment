@@ -1,0 +1,142 @@
+.skill-section_container {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.skills-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.skills-container_alt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.skills-img {
+  width: 45%;
+  /* filter: blur(10px); */
+}
+
+.list-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+.skills-section_text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+.skills-section_text_heading {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.table {
+  width: 90%;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+tr td {
+  text-align: center;
+  padding: 0.4rem;
+}
+
+tr th {
+  background-color: #00416c3a;
+  color: #212121;
+  padding: 0.7rem;
+}
+
+.table-heading_text {
+  padding: 0.7rem;
+}
+
+.table-body td {
+  background-color: #d2d2d4;
+  color: #333;
+}
+
+.skills-list {
+  width: 70%;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.skills-list_alt {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .skills-container,
+  .skills-container_alt {
+    flex-wrap: wrap; /* Add flex-wrap to control item wrapping */
+  }
+
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .list-container {
+    width: 90%;
+  }
+  .skills-container_alt {
+    flex-direction: column-reverse;
+  }
+
+  .skills-list {
+    margin-left: 0rem;
+    width: 80%;
+    padding: 0;
+  }
+
+  .skills-list_alt {
+    width: 80%;
+    padding: 0;
+  }
+
+  .skills-img {
+    width: 85%;
+  }
+
+  .text-helper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+  .skills-text {
+    display: none;
+  }
+}
