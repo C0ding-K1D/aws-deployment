@@ -67,7 +67,7 @@ nav {
 .hamburger .bar {
   width: 30px;
   height: 4px;
-  background: #333;
+  background-image: linear-gradient(to top left, #00416c, #008bea) !important;
   transition: transform 0.2s, opacity 0.2s;
 }
 
@@ -89,7 +89,7 @@ nav {
   right: -250px;
   width: 250px;
   height: 100%;
-  background: rgb(0, 65, 108, 0.7);
+  background: rgb(0, 65, 108);
   padding: 10px;
   transition: right 0.3s;
   z-index: 900;
@@ -111,6 +111,10 @@ nav {
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: #eee;
+}
+
+.mobile-links a {
+  text-decoration: none;
 }
 
 .mobile-links li {
@@ -140,6 +144,7 @@ nav {
 
 .logo-container {
   display: flex;
+  align-items: center;
   gap: 13px;
 }
 
@@ -294,6 +299,34 @@ nav {
   .subheader {
     width: 350px;
     font-size: 1.7rem;
+  }
+
+  .my-svg {
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
+  }
+
+  .logo-subtext {
+    font-size: 10px;
+    /* letter-spacing: 4px;
+    margin-bottom: -3px; */
+  }
+
+  .logo-text_mobile {
+    font-size: 28px;
+  }
+
+  .bg-design::before {
+    width: 80%;
+    height: 80%;
+  }
+
+  .btn-mobile {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 /* Keyframes for border animation */

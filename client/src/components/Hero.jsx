@@ -59,7 +59,7 @@ function Hero() {
           </a>
           <div className="logo-text_container">
             <p className="logo-subtext">MATTHEW ALVAREZ</p>
-            <p className="logo-text">
+            <p className="logo-text logo-text_mobile">
               <span className="color-text">DEVELOP</span>ER
             </p>
           </div>
@@ -159,7 +159,13 @@ function Hero() {
           life. Take a look around and explore the fusion of design and code,
           where every pixel tells a story.
         </p>
-        <Stack mt={5} spacing={2} direction="row" justifyContent="center">
+        <Stack
+          mt={5}
+          spacing={2}
+          direction="row"
+          justifyContent="center"
+          className="btn-mobile"
+        >
           <Button
             onClick={handleDownload}
             variant="contained btn-cta"
